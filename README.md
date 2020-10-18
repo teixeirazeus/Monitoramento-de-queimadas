@@ -48,9 +48,9 @@ Todo o código para o treino da rede neural pode ser encontrado no [aqui](https:
 As métricas demonstraram uma alta precisão para classificação de fogo, 94%, parte critica para não gerar falsos positivos.
 
 <br>
-<img src="graficos/matriz_rede.png" width="750">
+<img src="graficos/matriz_rede.png" width="500">
 <br>
 
 <br>
-<img src="graficos/treino_rede.png" width="750">
+<img src="graficos/treino_rede.png" width="500">
 <br>
