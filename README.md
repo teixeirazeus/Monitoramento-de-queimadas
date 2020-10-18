@@ -75,7 +75,7 @@ Através do bando de dados do INPE, foi realizado uma análise dos pontos de oco
 Para isto foi usado o algoritmo K-means, variando o número de cluster (que corresponde ao numero de bases) e medindo a maior distância no conjunto de bases, sendo que é considerado a distância da base atual para base mais próxima, garantindo a transferência de drone e cobrimento da área critica.
 
 <br>
-<img src="graficos/k.png" width="600">
+<img src="graficos/k.png" width="350">
 <br>
 
 De acordo com o gráfico acima, considerando 6 bases distribuídas em Poconé, temos o ponto mínimo de distancia entre as bases, concentrando as bases na área de maior ocorrência do município, garantindo uma distância entre elas de 48.31 km.
