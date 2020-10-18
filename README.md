@@ -38,7 +38,7 @@ Após a identificação de alguma queimada, o drone dispara uma mensagem para ce
 O projeto não exclui o trabalho dos bombeiros e de órgãos responsáveis pelo combate às queimadas, porém diminui consideravelmente o custo operacional dessas unidades e os riscos apresentados aos profissionais.
 
 #### Análise de imagens usando inteligência artificial
-Para que o drone consiga detectar o fogo, foi treinado uma inteligência artificial, utilizando redes neurais convolucionais.
+Para que o drone consiga detectar o fogo, foi treinado uma inteligência artificial, utilizando uma rede neural convolucional.
 Foi utilizado os seguintes bancos de imagens para seu treino:
 https://www.kaggle.com/phylake1337/fire-dataset <br>
 https://github.com/DeepQuestAI/Fire-Smoke-Dataset
@@ -68,3 +68,14 @@ Exemplo com três imagens nunca vista pela inteligência artificial.
 <br>
 <img src="graficos/c3.png" width="600">
 <br>
+
+#### Localização ótima de bases de drones por K-means
+Através do bando de dados do INPE, foi realizado uma análise dos pontos de ocorrência de queimadas. A ideia é colocar as bases dos drones perto dos pontos de maior ocorrência, de forma que a distância entre essas bases seja alcançável para os drones, e concentra-se nos pontos de maior ocorrência.
+
+Para isto foi usado o algoritmo K-means, variando o número de cluster (que corresponde ao numero de bases) e medindo a maior distância no conjunto de bases, sendo que é considerado a distância da base atual para base mais próxima, garantindo a transferência de drone e cobrimento da área critica.
+
+<br>
+<img src="graficos/k.png" width="600">
+<br>
+
+De acordo com o gráfico acima, considerando 6 bases distribuídas em Poconé, temos o ponto mínimo de distancia entre as bases, concentrando as bases na área de maior ocorrência do município, garantindo uma distância entre elas de 48.31 km.
