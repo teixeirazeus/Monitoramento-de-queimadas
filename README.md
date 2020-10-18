@@ -6,7 +6,7 @@ No ano de 2020 as queimadas ganharam foco nos assuntos mais importantes do ano p
 
 Outros países como os Estados Unidos e a Austrália também sofreram sérios danos durante o ano de 2020 referentes às queimadas, sendo que na Austrália, estima-se que as queimadas mataram ou removeram de seu habitat natural cerca de 3 bilhões de animais,sendo considerado a maior catástrofe da fauna da história moderna.
 
-De acordo nossos estudos usando um [bando de dados](http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif) do governo brasileiro sobre queimadas, é notavel o aumento do numero de queimadas no Brasil, considerando o tempo de 1998 até 2017, como demonstra a figura 1.
+De acordo com nossos estudos usando um [bando de dados](http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif) do governo brasileiro sobre queimadas, é notavel o aumento do numero de queimadas no Brasil, considerando o tempo de 1998 até 2017, como demonstra a figura 1.
 <br>
 <img src="./graficos/aumento_queimadas.png" width="600">
 <br>
@@ -42,3 +42,5 @@ Para que o drone consiga detectar o fogo, foi treinado uma inteligência artific
 Foi utilizado os seguintes bancos de imagens para seu treino:
 https://www.kaggle.com/phylake1337/fire-dataset <br>
 https://github.com/DeepQuestAI/Fire-Smoke-Dataset
+
+Todo o código para o treino da rede neural pode ser encontrado no [aqui](https://colab.research.google.com/drive/1n0pGCaWW2e2nu1wJ91GudKyRzEsKWllc?usp=sharing). Incluindo o modelo já treinado que está neste repositório [modelo](fire_smoke_detector.model).
