@@ -12,5 +12,5 @@ De acordo nossos estudos usando um [bando de dados](http://dados.gov.br/dataset/
 <br>
 Somando todos as ocorrências de queimadas neste período e classificando por estados, conforme a Figura 2, o Mato Grosso se destaca, sendo o estado com maior ocorrência de queimadas.
 <br>
-<img src="./graficos/estados.png" width="750">
+<img src="./graficos/estadosx.png" width="750">
 <br>
