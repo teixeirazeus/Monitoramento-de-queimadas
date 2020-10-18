@@ -14,10 +14,15 @@ Somando todos as ocorrências de queimadas neste período e classificando por es
 <br>
 <img src="./graficos/estadosx.png" width="600">
 <br>
-A cidade escolhida para a implementação do projeto foi Poconé no sul do Mato Grosso, a cidade com um dos maiores números de incidentes com queimadas, concentrando 16% das queimadas no Mato Grosso.
+A cidade escolhida para a implementação do projeto foi Poconé no sul do Mato Grosso, a cidade com um dos maiores números de incidentes com queimadas, concentrando 16% das queimadas no Mato Grosso, sengundo nossas analise do [bando de dados](http://queimadas.dgi.inpe.br/queimadas/portal) de queimada do Instituto Nacional de Pesquisas Espaciais (INPE), no período de 2019-2020.
 <br>
 <img src="./graficos/pocone.png" width="600">
 <br>
+Poconé é o segundo municipio com mais ocorrências de queimadas no Brasil, com 210.805 ocorrências, perdendo somente para Corumba Mato Grosso do Sul com 229.153 ocorrências. Foi escolhido um municipio do Mato Grosso, pois além de ser o estado com maior concentração de queimadas, dos Top 10 municipio com queimadas do Brasil, 3 são de Mato Grosso.
+<br>
+<img src="./graficos/Municipios.png" width="600">
+<br>
+
 
 ## O projeto
 No Brasil, as áreas de queimada exigem grande esforço para serem identificadas, ou por se localizarem em mata fechada, ou por estarem em ambiente acidentado. A utilização de drones começou a ser implementada para resolver esse problema, permitindo que bombeiros e voluntários soubessem exatamente onde a queimada se localiza antes de se locomover, porém, essa opção depende de um diagnóstico humano e toda a operação depende de um piloto para o drone, além de depender de alguma denúncia ou resquício que há fogo no lugar.
