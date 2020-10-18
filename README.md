@@ -55,6 +55,8 @@ As métricas demonstraram uma alta precisão para classificação de fogo, 94%, 
 <img src="graficos/treino_rede.png" width="450">
 <br>
 
+Exemplo com três imagens nunca vista pela inteligência artificial.
+
 <br>
 <img src="graficos/c1.png" width="600">
 <br>
