@@ -45,6 +45,8 @@ Nossa solução consiste em um drone de patrulha equipado com uma câmera térmi
 
 Após a identificação de alguma queimada, o drone dispara uma mensagem para centrais de órgãos que sejam responsáveis pelo combate a queimadas, mandando a localização exata do foco de incêndio. Caso a queimada esteja ocorrendo perto de rodovias, a policia rodoviaria federal irá ser acionada para o monitoramento do trânsito, para a prevenção de acidentes devido a baixa visibilidade. Caso a queimada ocorra perto da cidade, os órgãos competentes serão acionados para monitorar a possibilidade do fogo se alastrar para a cidade.
 
+Para a realização do projeto é necessario um drone e uma câmera especial, que pode ser utilizada para aumentar a precisão da classificação em casos de queimada. As principais empresas do ramo foram contatas para o orçamento dos equipamentos necessários. Uma vez que nossa equipe esteja em posse dessa informações, será feita uma análise de viabilidade do projeto, junto com calculos mais precisos de área mapeada e autonomia do drone.
+
 O projeto não exclui o trabalho dos bombeiros e de órgãos responsáveis pelo combate às queimadas, porém diminui consideravelmente o custo operacional dessas unidades e os riscos apresentados aos profissionais.
 
 #### Análise de imagens usando inteligência artificial
