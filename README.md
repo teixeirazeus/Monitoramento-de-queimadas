@@ -20,7 +20,7 @@ A cidade escolhida para a implementação do projeto foi Poconé no sul do Mato 
 <br>
 Poconé é o segundo municipio com mais ocorrências de queimadas no Brasil, com 210.805 ocorrências, perdendo somente para Corumba Mato Grosso do Sul com 229.153 ocorrências. Foi escolhido um municipio do Mato Grosso, pois além de ser o estado com maior concentração de queimadas, dos Top 10 municipio com queimadas do Brasil, 3 são de Mato Grosso.
 <br>
-<img src="./graficos/Municipios.png" width="600">
+<img src="./graficos/Municipios.png" width="800">
 <br>
 
 
