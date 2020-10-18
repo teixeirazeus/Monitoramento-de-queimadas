@@ -1,12 +1,22 @@
 # Monitoramento-de-queimadas
-Projeto para monitorar e identificar queimadas na região de Pocone - Mato Grosso, através de drones utilizando inteligência artificial.
+
+[![APRESENTAÇÃO](https://img.youtube.com/vi/-9O5WEU7elI/0.jpg)](https://www.youtube.com/watch?v=-9O5WEU7elI)
+
+Projeto para monitorar e identificar queimadas na região de Poconé - Mato Grosso, através de drones utilizando inteligência artificial.
+
+Autores:
+
+* Ana Thaynara Geller Kuchinski
+* Calandra Renata Tilpe
+* Gian Carlos Medeiros Hackbarth
+* Thiago da Silva Teixeira
 
 ## O problema das queimadas no Brasil
 No ano de 2020 as queimadas ganharam foco nos assuntos mais importantes do ano perante o público e a mídia, o que é de se esperar, só em 2020 os pesquisadores estimam que uma área de 23 mil km² foi perdida para as queimadas. Para o tamanho do Brasil, o número não é muito expressivo, porém essa área corresponde a ¼ de Portugal, ou para melhor senso de comparação, quase 10 vezes o tamanho de Luxemburgo.
 
 Outros países como os Estados Unidos e a Austrália também sofreram sérios danos durante o ano de 2020 referentes às queimadas, sendo que na Austrália, estima-se que as queimadas mataram ou removeram de seu habitat natural cerca de 3 bilhões de animais,sendo considerado a maior catástrofe da fauna da história moderna.
 
-De acordo com nossos estudos usando um [bando de dados](http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif) do governo brasileiro sobre queimadas, é notavel o aumento do numero de queimadas no Brasil, considerando o tempo de 1998 até 2017, como demonstra a figura 1.
+De acordo com nossos estudos usando um [bando de dados](http://dados.gov.br/dataset/sistema-nacional-de-informacoes-florestais-snif) do governo brasileiro sobre queimadas, é notável o aumento do numero de queimadas no Brasil, considerando o tempo de 1998 até 2017, como demonstra a figura 1.
 <br>
 <img src="./graficos/aumento_queimadas.png" width="600">
 <br>
@@ -33,7 +43,7 @@ No Brasil, as áreas de queimada exigem grande esforço para serem identificadas
 
 Nossa solução consiste em um drone de patrulha equipado com uma câmera térmica, instalada para identificar temperaturas elevadas juntamente com um algoritmo de classificação, responsável por dar autonomia ao equipamento e retirando a necessidade de um operador durante a patrulha. O drone conta com uma inteligência artificial desenvolvida pela equipe para identificar imagens que contém fogo ou fumaça, permitindo uma análise automática, sem necessidade de um operador/piloto.
 
-Após a identificação de alguma queimada, o drone dispara uma mensagem para centrais de órgãos que sejam responsáveis pelo combate a queimadas, mandando a localização exata do foco de incêndio. Caso a queimada esteja ocorrendo perto de rodovias, a PRF irá ser acionada para o monitoramento do trânsito, para a prevenção de acidentes devido a baixa visibilidade. Caso a queimada ocorra perto da cidade, os órgãos competentes serão acionados para monitorar a possibilidade do fogo se alastrar para a cidade.
+Após a identificação de alguma queimada, o drone dispara uma mensagem para centrais de órgãos que sejam responsáveis pelo combate a queimadas, mandando a localização exata do foco de incêndio. Caso a queimada esteja ocorrendo perto de rodovias, a policia rodoviaria federal irá ser acionada para o monitoramento do trânsito, para a prevenção de acidentes devido a baixa visibilidade. Caso a queimada ocorra perto da cidade, os órgãos competentes serão acionados para monitorar a possibilidade do fogo se alastrar para a cidade.
 
 O projeto não exclui o trabalho dos bombeiros e de órgãos responsáveis pelo combate às queimadas, porém diminui consideravelmente o custo operacional dessas unidades e os riscos apresentados aos profissionais.
 
@@ -45,7 +55,7 @@ https://github.com/DeepQuestAI/Fire-Smoke-Dataset
 
 Todo o código para o treino da rede neural pode ser encontrado no [aqui](https://colab.research.google.com/drive/1n0pGCaWW2e2nu1wJ91GudKyRzEsKWllc?usp=sharing), incluindo o [modelo treinado](https://drive.google.com/file/d/1YRx4ujvsc0Gp7HGaVilT8e9KjoCqb43k/view?usp=sharing).
 
-As métricas demonstraram uma alta precisão para classificação de fogo, 94%, parte critica pois gera um sinal de alerta.
+As métricas demonstraram uma alta precisão para classificação de fogo, 94%, parte critica pois gera um sinal de alerta para ser confirmado visualmente pela equipe de monitoramento.
 
 <br>
 <img src="graficos/matriz_rede.png" width="500">
@@ -81,3 +91,7 @@ Para isto foi usado o algoritmo K-means, variando o número de cluster (que corr
 De acordo com o gráfico acima, considerando 6 bases distribuídas em Poconé, temos o ponto mínimo de distancia entre as bases, concentrando as bases na área de maior ocorrência do município, garantindo uma distância entre elas de 48.31 km.
 
 O código pode ser consultado [aqui](https://colab.research.google.com/drive/1bzhpFcxLVKIAhykpRfPwwsKygZ5lBcpz?usp=sharing), junto com um [mapa interativo](https://thiagoteixeira.dev/bases_6_pocone.html) com a localização das bases.
+
+Uma alternativa a utilização dessas base, seria realizar o mapeamento de todo o município. Neste caso, a partir de cálculos seguindo as [especificações do Drone](https://www.quaternium.com/uav/hybrix-drone/) foi estimada uma rota visando uma melhor leitura da área da cidade utilizando 18 Drones, a cidade tem um formato levemente parecido a um retângulo, foi assim definido algumas rotas, com uma rota pré definida para cada um, tendo ao todo 18 pontos de reabastecimento, esses pontos estão localizados em pontos comuns de encontro de rotas, assim abastecendo mais de um drone apenas.
+
+Ao todo, uma área de 15.450Km² será coberta, desconsiderando já a área da cidade de Pocotó. A configuração do Drone permite que percorra até 200 Km, tendo que sua velocidade mantida a 50 Km/h tendo que sua autonomia é de 4 horas de vôo, podendo voar por mais tempo, mas por questão de segurança o tempo máximo está definido em 4 horas, assim cada Drone tendo uma autonomia de leitura de 200 Km de vôo.
