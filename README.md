@@ -43,14 +43,26 @@ Foi utilizado os seguintes bancos de imagens para seu treino:
 https://www.kaggle.com/phylake1337/fire-dataset <br>
 https://github.com/DeepQuestAI/Fire-Smoke-Dataset
 
-Todo o código para o treino da rede neural pode ser encontrado no [aqui](https://colab.research.google.com/drive/1n0pGCaWW2e2nu1wJ91GudKyRzEsKWllc?usp=sharing). Incluindo o modelo já treinado pode ser baixado [aqui](https://drive.google.com/file/d/1YRx4ujvsc0Gp7HGaVilT8e9KjoCqb43k/view?usp=sharing).
+Todo o código para o treino da rede neural pode ser encontrado no [aqui](https://colab.research.google.com/drive/1n0pGCaWW2e2nu1wJ91GudKyRzEsKWllc?usp=sharing), incluindo o [modelo treinado](https://drive.google.com/file/d/1YRx4ujvsc0Gp7HGaVilT8e9KjoCqb43k/view?usp=sharing).
 
-As métricas demonstraram uma alta precisão para classificação de fogo, 94%, parte critica para não gerar falsos positivos.
+As métricas demonstraram uma alta precisão para classificação de fogo, 94%, parte critica pois gera um sinal de alerta.
 
 <br>
 <img src="graficos/matriz_rede.png" width="500">
 <br>
 
 <br>
-<img src="graficos/treino_rede.png" width="500">
+<img src="graficos/treino_rede.png" width="450">
+<br>
+
+<br>
+<img src="graficos/c1png" width="400">
+<br>
+
+<br>
+<img src="graficos/c2.png" width="400">
+<br>
+
+<br>
+<img src="graficos/c3.png" width="400">
 <br>
