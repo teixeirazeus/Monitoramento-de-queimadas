@@ -40,6 +40,5 @@ O projeto não exclui o trabalho dos bombeiros e de órgãos responsáveis pelo 
 #### Análise de imagens usando inteligência artificial
 Para que o drone consiga detectar o fogo, foi treinado uma inteligência artificial, utilizando redes neurais convolucionais.
 Foi utilizado os seguintes bancos de imagens para seu treino:
-https://www.kaggle.com/phylake1337/fire-dataset
-
+https://www.kaggle.com/phylake1337/fire-dataset <br>
 https://github.com/DeepQuestAI/Fire-Smoke-Dataset
