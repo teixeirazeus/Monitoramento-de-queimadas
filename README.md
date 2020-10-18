@@ -56,13 +56,13 @@ As métricas demonstraram uma alta precisão para classificação de fogo, 94%, 
 <br>
 
 <br>
-<img src="graficos/c1png" width="400">
+<img src="graficos/c1.png" width="600">
 <br>
 
 <br>
-<img src="graficos/c2.png" width="400">
+<img src="graficos/c2.png" width="600">
 <br>
 
 <br>
-<img src="graficos/c3.png" width="400">
+<img src="graficos/c3.png" width="600">
 <br>
