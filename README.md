@@ -79,3 +79,5 @@ Para isto foi usado o algoritmo K-means, variando o número de cluster (que corr
 <br>
 
 De acordo com o gráfico acima, considerando 6 bases distribuídas em Poconé, temos o ponto mínimo de distancia entre as bases, concentrando as bases na área de maior ocorrência do município, garantindo uma distância entre elas de 48.31 km.
+
+O código pode ser consultado [aqui](https://colab.research.google.com/drive/1bzhpFcxLVKIAhykpRfPwwsKygZ5lBcpz?usp=sharing), junto com um [mapa interativo](https://thiagoteixeira.dev/bases_6_pocone.html) com a localização das bases.
