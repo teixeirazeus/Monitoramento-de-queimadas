@@ -32,3 +32,13 @@ Poconé é o segundo municipio com mais ocorrências de queimadas no Brasil, com
 No Brasil, as áreas de queimada exigem grande esforço para serem identificadas, ou por se localizarem em mata fechada, ou por estarem em ambiente acidentado. A utilização de drones começou a ser implementada para resolver esse problema, permitindo que bombeiros e voluntários soubessem exatamente onde a queimada se localiza antes de se locomover, porém, essa opção depende de um diagnóstico humano e toda a operação depende de um piloto para o drone, além de depender de alguma denúncia ou resquício que há fogo no lugar.
 
 Nossa solução consiste em um drone de patrulha equipado com uma câmera térmica, instalada para identificar temperaturas elevadas juntamente com um algoritmo de classificação, responsável por dar autonomia ao equipamento e retirando a necessidade de um operador durante a patrulha. O drone conta com uma inteligência artificial desenvolvida pela equipe para identificar imagens que contém fogo ou fumaça, permitindo uma análise automática, sem necessidade de um operador/piloto.
+
+Após a identificação de alguma queimada, o drone dispara uma mensagem para centrais de órgãos que sejam responsáveis pelo combate a queimadas, mandando a localização exata do foco de incêndio. Caso a queimada esteja ocorrendo perto de rodovias, a PRF irá ser acionada para o monitoramento do trânsito, para a prevenção de acidentes devido a baixa visibilidade. Caso a queimada ocorra perto da cidade, os órgãos competentes serão acionados para monitorar a possibilidade do fogo se alastrar para a cidade.
+
+O projeto não exclui o trabalho dos bombeiros e de órgãos responsáveis pelo combate às queimadas, porém diminui consideravelmente o custo operacional dessas unidades e os riscos apresentados aos profissionais.
+
+#### Análise de imagens usando inteligência artificial
+Para que o drone consiga detectar o fogo, foi treinado uma inteligência artificial, utilizando redes neurais convolucionais.
+Foi utilizado os seguintes bancos de imagens para seu treino:
+https://www.kaggle.com/phylake1337/fire-dataset
+https://github.com/DeepQuestAI/Fire-Smoke-Dataset
