@@ -1,7 +1,4 @@
 # Monitoramento-de-queimadas
-
-[![APRESENTAÇÃO](https://img.youtube.com/vi/-9O5WEU7elI/0.jpg)](https://www.youtube.com/watch?v=-9O5WEU7elI)
-
 Projeto para monitorar e identificar queimadas na região de Poconé - Mato Grosso, através de drones utilizando inteligência artificial.
 
 Autores:
@@ -10,6 +7,10 @@ Autores:
 * Calandra Renata Tilpe
 * Gian Carlos Medeiros Hackbarth
 * Thiago da Silva Teixeira
+
+## Vídeo
+[![APRESENTAÇÃO](https://img.youtube.com/vi/-9O5WEU7elI/0.jpg)](https://www.youtube.com/watch?v=-9O5WEU7elI)
+
 
 ## O problema das queimadas no Brasil
 No ano de 2020 as queimadas ganharam foco nos assuntos mais importantes do ano perante o público e a mídia, o que é de se esperar, só em 2020 os pesquisadores estimam que uma área de 23 mil km² foi perdida para as queimadas. Para o tamanho do Brasil, o número não é muito expressivo, porém essa área corresponde a ¼ de Portugal, ou para melhor senso de comparação, quase 10 vezes o tamanho de Luxemburgo.
