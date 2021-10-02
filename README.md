@@ -9,7 +9,7 @@ Autores:
 * Thiago da Silva Teixeira
 
 ## Vídeo
-[![APRESENTAÇÃO](https://img.youtube.com/vi/-9O5WEU7elI/0.jpg)](https://www.youtube.com/watch?v=-9O5WEU7elI)
+[![APRESENTAÇÃO](https://img.youtube.com/vi/QnRWHtpHK9k/0.jpg)](https://youtu.be/QnRWHtpHK9k)
 
 
 ## O problema das queimadas no Brasil
